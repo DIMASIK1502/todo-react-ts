@@ -1,0 +1,19 @@
+.todo-list-component {
+  margin: 0 auto;
+  max-width: 600px;
+
+  .todo-list-actions {
+    display: flex;
+    margin-bottom: 24px;
+    .todo-text-input {
+      margin-right: 12px;
+      width: 100%;
+    }
+  }
+  .todo-list-content {
+    height: 600px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

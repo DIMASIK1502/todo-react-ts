@@ -1,0 +1,36 @@
+.todo-list-item {
+  padding: 8px;
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  .item-check {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+  }
+  .item-task {
+    margin-right: 16px;
+    width: 100%;
+    span {
+      max-width: 345px;
+      word-break: normal;
+      display: block;
+    }
+    .task-input {
+      width: 100%;
+      padding: 0;
+      border: none;
+      font-size: 16px;
+    }
+  }
+}
